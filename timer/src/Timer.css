@@ -1,0 +1,71 @@
+.app {
+  text-align: center;
+  background: #8E24AA;
+  background: linear-gradient(45deg,  #42a5f5 0%,#478ed1 50%,#0d47a1 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.time {
+  font-size: 3rem;
+  padding: 2rem;
+}
+
+.button-primary:hover {
+  background-color: #2641d4;
+  border: 1px solid #1b1f2b;
+}
+
+.button-primary-active {
+  background-color: #3151ff;
+  border: 1px solid #152684;
+  color: white;
+}
+
+.button-primary-inactive {
+  background-color: #0f218a;
+  border: 1px solid #152684;
+  color: white;
+}
+
+.selectors {
+  height: 30px;
+  width: 12%;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.button {
+  margin: 20px;
+  background: #2641d4;
+  font-size: large;
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-bottom: 35px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #1836dd;
+  color: white;
+  box-shadow: 0 10px 25px rgba(9, 5, 235, 0.541);
+}
+
+.button-secondary {
+  background-color: #03237a;
+  border: 1px solid #0b07dd;
+  color: white;
+}
+
+.button-secondary:hover {
+  background-color: #0948f5;
+  color: white;
+  box-shadow: 0 10px 25px rgba(9, 5, 235, 0.541);
+}
