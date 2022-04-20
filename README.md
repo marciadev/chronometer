@@ -10,3 +10,7 @@ It's just a single component where we handle states and styles.
 Languages and technologies:
 
 # JavaScript, Bootstrap, CSS, React, Hooks.
+
+
+
+![timer-gif](https://user-images.githubusercontent.com/86635927/164319839-70533f3e-b9f3-492a-af25-e31bb5708147.gif)
